@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# yarn berry
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# build output
+dist/
+*.tsbuildinfo
+
+# turborepo
+.turbo/
+
+# env
+.env
+.env.local
+
+# misc
+.DS_Store
